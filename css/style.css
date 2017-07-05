@@ -1,0 +1,21 @@
+nav, nav-wrapper {
+	margin:0;
+	background-color: #333333;
+	height: auto;
+}
+.logo {
+
+}
+
+nav ul a.btn, nav .btn {
+	background-color: transparent;
+	border:white solid 1px;
+	padding: 0 10px;
+	box-shadow: none;
+}
+nav .btn {
+	margin: 0 10px;
+}
+ nav ul .btn:hover, nav .btn:hover, nav ul .btn:focus, nav .btn:focus {
+    background-color: transparent;
+}
