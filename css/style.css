@@ -1,36 +1,48 @@
 nav {
-	background-color: #333333;
+  background-color: #333333;
 }
+
 .logo {
-	padding-left: 50px;
+  padding-left: 50px;
 }
 
 .page-footer {
   background-color: #333333;
 }
 
-.subscribe input{
-	background-color: #f5f5f5 !important;
-	height: 26px !important;
-	margin: 3% !important;
-	border-bottom: none !important;
-	padding: 0 4% !important;
+.subscribe input {
+  background-color: #f5f5f5 !important;
+  height: 26px !important;
+  margin: 3% !important;
+  border-bottom: none !important;
+  padding: 0 4% !important;
 }
 
 .buton-suscribe {
-	margin: 8px;
-	background-color: #ff5900;
-	border: 2px solid #ff5900;
+  margin: 8px;
+  background-color: #ff5900;
+  border: 2px solid #ff5900;
 }
 
 .footer-contact h6, button, .contact {
-	color: #f5f5f5;
+  color: #f5f5f5;
 }
 
-.footer-contact .contact{
-	text-align: right;
+.footer-contact .contact {
+  text-align: right;
 }
 
-.social-media .fa{
-	padding: 2%;
+.social-media .fa {
+  padding: 2%;
+}
+
+.shadow-card {
+  border: 1px solid #ff5900;
+  margin: 2%;
+  padding: 2% !important;
+  box-shadow: 0px 0px 20px 1px #ff5900;
+}
+
+#collapsible-profile {
+  margin: -4% -4% 0 !important;
 }
