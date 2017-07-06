@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Metas -->
   <meta charset="UTF-8">
@@ -14,6 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
 	  <div class="navbar-fixed">
@@ -50,45 +52,289 @@
       </nav>
   </header>
 
+  <section id="profile">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12 shadow-card">
+          <div class="col l4">
+            <img src="assets/img/perfil.png" alt="Foto de perfil">
+          </div>
+          <div class="col l8">
+            <div class="row">
+              <form class="col s12">
+                <h5>Datos Usuario</h5>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate" required>
+                    <label for="first_name" class="active">Nombre</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name" class="active">Apellido</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email" class="active">Correo</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input type="number" class="validate">
+                    <label for="telephone" class="active">Telefóno</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input id="razon-social" type="text" class="validate">
+                    <label for="razon-social" class="active">Razon Social</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="rfc" type="text" class="validate">
+                    <label for="rfc" class="active">RFC</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col s12 right-align">
+                    <a class="btn btn-save accent-4">Guardar</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="collapsible-profile">
+    <div class="container">
+      <div class="row">
+        <div class="col l12">
+          <div id="popout" class="section scrollspy">
+            <ul class="collapsible popout collapsible-accordion" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header">
+                  <h5 style="padding-top:1%;">Dirección fiscal</h5></div>
+                <div class="collapsible-body">
+                  <div class="row formulario-datos">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="calle" type="text" class="validate" required>
+                          <label for="calle">Calle</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input id="num-interior" type="text" class="validate">
+                          <label for="num-interior">Num. Interior</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="num-exterior" type="text" class="validate">
+                          <label for="num-exterior">Num. Exterior</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input id="colonia" type="password" class="validate">
+                          <label for="colonia">Colonia</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="delegacion" type="text" class="validate">
+                          <label for="delegacion">Delegacion/Municipio</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input id="CP" type="text" class="validate">
+                          <label for="CP">Codigo Postal</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="ciudad" type="text" class="validate">
+                          <label for="ciudad">Ciudad</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col s12 right-align">
+                          <a class="btn btn-save  light-green accent-4">Salvar Cambios</a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <h5 style="padding-top:1%;">Método de pago</h5></div>
+                <div class="collapsible-body">
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="row">
+                        <div class="col s10 offset-s1">
+                          <form action="#">
+                            <p>
+                              <input name="group1" type="radio" id="test1" class="with-gap" checked="checked" />
+                              <label for="test1">Otra Forma de pago</label>
+                            </p>
+                            <p>
+                              <input name="group1" type="radio" id="test2" class="with-gap" />
+                              <label for="test2"><a href="#" class=" btn-medium">
+                    <img src="assets/img/tarjeta_credito.png" alt="" class="img-tarjetas"></a></label>
+                            </p>
+                            <div id="info-tarjeta">
+                              <div class="row">
+                                <div class="input-field col s12">
+                                  <input id="titular" type="text" class="validate">
+                                  <label for="titular"> Titular *</label>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="input-field col s12">
+                                  <input id="tarjeta" type="password" class="validate">
+                                  <label for="tarjeta">No. Tarjeta *</label>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="input-field col s6">
+                                  <input id="expiracionM" type="text" class="validate">
+                                  <label for="expiracionM">Expiracion MM *</label>
+                                </div>
+                                <div class="input-field col s6">
+                                  <input id="expiracionA" type="text" class="validate">
+                                  <label for="expiracionA"> Expiracion AA *</label>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="input-field col s12">
+                                  <input id="CVV" type="text" class="validate">
+                                  <label for="CVV"> CVV *</label>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col s12 right-align">
+                                  <a class="btn btn-save accent-4">Guardar</a>
+                                </div>
+                              </div>
+                          </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </li>
+            </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+  </section>
 
 
   <footer class="page-footer">
     <div class="container">
       <div class="row">
+        <div class="">
+          <img src="assets/img/logoNaranja-menu.png" alt="">
+        </div>
+        <hr>
         <div class="col l3 s12">
-          <h5 class="white-text">Experimenta</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <h6 class="white-text">EXPERIMENTA</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Home</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>¿Quiénes somos?</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>¿Cómo funciona?</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Recibí un kit</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Blog</li>
+            </a>
+          </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Servicio al cliente</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <h6 class="white-text">SERVIVIO AL CLIENTE</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Preguntas frecuentes</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Garantía de servicio</li>
+            </a>
+          </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Politicas</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <h6 class="white-text">PÓLITICAS</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Términos y condiciones</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Privacidad</li>
+            </a>
+          </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Soluciones corporativas</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <h6 class="white-text">SOLUCIONES CORPORATIVAS</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Regalos corporativos</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Cotiza tu iniciativa</li>
+            </a>
+          </ul>
         </div>
       </div>
+      <hr>
     </div>
-    <div class="footer-copyright">
+
+    <div class="footer-contact">
       <div class="container">
-        Contacto
-        <a href="#" class="grey-text text-lighten-4 right"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#" class="grey-text text-lighten-4 right"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#" class="grey-text text-lighten-4 right"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a href="#" class="grey-text text-lighten-4 right"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="#" class="grey-text text-lighten-4 right"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-        <a href="#" class="grey-text text-lighten-4 right"><i class="fa fa-rss" aria-hidden="true"></i></a>
+        <!-- <h3>Contacto</h3> -->
+        <div class="row">
+          <div class="col l6 s12">
+            <div class="social-media">
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-rss" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col l6 s12">
+            <div class="row">
+              <h6 class="right">Inscríbete a nuestro Newsletter para recibir grandes ideas...</h6>
+              <div class="col l8 subscribe right">
+                <input type="email" name="suscribirse" value="" placeholder="Escribe tu e-mail">
+              </div>
+              <button type="button" name="button" class="col l3 buton-suscribe right">Suscribete</button>
+            </div>
+            <div class="row">
+              <div class="l12">
+                <p class="contact"><i class="fa fa-phone" aria-hidden="true"></i> 5292 5707 / 01 55 5292-5707 | <br>
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i> atencion@experimenta.com.mx
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
   <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>
+
 </html>
