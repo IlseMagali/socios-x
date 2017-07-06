@@ -79,7 +79,7 @@ nav .dropdown-content {
 }
 
 #collapsible-profile {
-  margin: -4% -4% 0 !important;
+	margin-top: -4%;
 }
 
 .btn-medium img {
