@@ -1,10 +1,45 @@
+/*global styles*/
+/*row margin styles*/
+.row-margin-top-20px {
+	margin: 20px 0 0 0;
+}
+/*nav styles*/
 nav {
+	height: auto;
+}
+header, nav, nav ul a.btn, header div div a.btn {
 	background-color: #333333;
 }
 .logo {
 	padding-left: 50px;
 }
+nav ul a.btn {
+	border: white solid 1px;
+}
 
+nav .btn:hover, nav .btn:focus  {
+	background-color: #fa6900;
+}
+
+nav .dropdown-content li>a, nav .dropdown-content li>span {
+	color: #fa6900;
+}
+
+nav .dropdown-content {
+	background-color: #333333;
+}
+/*nav styles end*/
+/*sign-out styles*/
+#sign-out {
+	height: 2rem;
+	text-align: right;
+	color:white;
+	margin-bottom: 10px;
+	margin-top: 0;
+	padding-right:2em;
+}
+
+/*sign-out styles end*/
 .page-footer {
   background-color: #333333;
 }
