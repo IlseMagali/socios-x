@@ -1,13 +1,12 @@
-.send-buton {
-  text-align: center;
-  margin-top: 3%;
-}
-
 #agreement-form >.container{
   border: 1px solid #e3e3e3;
   padding: 3%;
 }
 
-#file-upload {
-  margin-top: 1%;
+#copyright{
+  text-align: center;
+  padding: 1%;
+  background-color: #333333;
+  margin-top: -2%;
+  color: #f5f5f5;
 }
