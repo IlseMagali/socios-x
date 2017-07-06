@@ -85,3 +85,15 @@ nav .dropdown-content {
 .btn-medium img {
 	width: 25%;
 }
+/*modals styles*/
+.modal-overlay, .modal {
+	height: auto;
+	color:#333333;
+	z-index: 100;
+}
+.modal-content p {
+	margin:0;
+	padding:0;
+	-webkit-margin-before:0;
+	-webkit-margin-after:0;
+}
