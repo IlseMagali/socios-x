@@ -40,6 +40,15 @@ nav .dropdown-content {
 	padding-right:2em;
 }
 
+.btn {
+	background-color: #ff5900;
+}
+
+.btn:hover {
+	background-color: #f5f5f5;
+	color: #ff5900;
+}
+
 /*sign-out styles end*/
 .page-footer {
   background-color: #333333;
