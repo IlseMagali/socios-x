@@ -276,3 +276,26 @@ input[type="radio"]:checked ~ label {
 .row h2 {
 	margin-top: 1em;
 }
+.menu-sidebar {
+	padding:2%;
+	display:none;
+	color:white;
+	background-color: #333333;
+}
+.button-collapse {
+	color:#fa6900;
+	float:right;
+	width: 10%;
+}
+#sign-out a {
+	color:white;
+}
+/*media queries*/
+@media only screen and (max-width: 1000px) {
+	.menu-sidebar {
+		display:block;
+	}
+	.navbar-fixed {
+		display:none;
+	}
+}
