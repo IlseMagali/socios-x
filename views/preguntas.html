@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Metas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Title -->
+  <title>X-Women</title>
+  <!-- Links -->
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="color__white-opaque">
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div id="sign-out">
+          <span><i class="fa fa-user-circle" aria-hidden="true"></i><a href="../iniciarSesion.html">Cerrar sesión</a></span>
+        </div>
+        <div class="nav-wrapper">
+          <a href="index.html" class="logo"><img src="../assets/img/logoNaranja-menu.png" alt=""></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="reservas.html">Mis reservaciones</a></li>
+            <li><a href="#">Mis facturas</a></li>
+            <!-- Dropdown Structure Trigger -->
+            <li><a class='dropdown-button' href='#' data-activates='about-me'>Acerca de mí</a></li>
+            <!-- Dropdown Structure Start -->
+            <ul id='about-me' class='dropdown-content'>
+              <li><a href="index.html">Mis datos</a></li>
+              <li><a href="experiencias.html">Mis experiencias</a></li>
+              <li><a href="convenio.html">Mi convenio</a></li>
+            </ul>
+            <!-- Dropdown Structure End -->
+            <li><a href="preguntas.html">Preguntas frecuentes</a></li>
+            <li><a class="btn" href="#modal1">Contacto</a></li>
+          </ul>
+        </div>
+        <!-- Modal Structure -->
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <section class="row">
+              <section class="col s4">
+                <p>Negociaciones y convenios:</p>
+              </section>
+              <section class="col s4">
+                <p>5292-5707 Ext. 104 y 105</p>
+              </section>
+              <section class="col s4">
+                <p>socios@experimenta.com.mx</p>
+              </section>
+            </section>
+            <section class="row">
+              <section class="col s4">
+                <p>Administración:</p>
+              </section>
+              <section class="col s4">
+                <p>5292-5707 Ext. 1145</p>
+              </section>
+              <section class="col s4">
+                <p>egresos@experimenta.com.mx</p>
+              </section>
+            </section>
+            <section class="row">
+              <section class="col s4">
+                <p>Reservaciones:</p>
+              </section>
+              <section class="col s4">
+                <p>5292-5707 Ext. 109 y 110</p>
+              </section>
+              <section class="col s4">
+                <p>cte@experimena.com.mx</p>
+              </section>
+            </section>
+          </div>
+        </div>
+    </div>
+    </nav>
+  </header>
+  <!-- Area de preguntas frecuentes-->
+  <div class=" title__questions--margen">
+    <h2>Preguntas Frecuentes</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="offset-s2 col s8">
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header text-white color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Cuáles son las ventajas de trabajar con Experimenta?</div>
+            <div class="collapsible-body"><span>Conócelas aquí (<a href="#">link</a> a la presentación)</span>
+              <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s3 col s6">
+                      <button type="button" class="button buttom__blanco-negro" name="button">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="collapsible-header text-white color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Cómo me promocionan?</div>
+            <div class="collapsible-body"><span>Te promocionamos en nuestras redes sociales, sitio de internet, corporativos, canales de venta,
+            revistas y programas de radio</span>
+              <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s3 col s6">
+                      <button type="button" class="button buttom__blanco-negro" name="button">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header text-white color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Cuánto tiempo es válido el convenio?</div>
+            <div class="collapsible-body"><span>El convenio tiene duración de 2 años y es autorenovable. Se puede modificar y
+              dar de baja encualquier momento notificando a Experimenta con un mes de aniticipación.</span>
+              <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s3 col s6">
+                      <button type="button" name="button" class="button buttom__blanco-negro">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header text-white color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Hay un límite de experiencias que puedo promocionar con Experimenta?</div>
+            <div class="collapsible-body"><span>Estamos interesados en tener en nuestro catalogo todas las experiencias que quieres promocionar con nosotros.
+              No hay ningun minimo ni maximo en el numero de experiencias.</span>
+
+              <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s3 col s6">
+                      <button type="button" name="button" class="button buttom__blanco-negro">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header text-white color__dark-gray"><i class="material-icons color__orange ">live_help</i>¿Cuántos cambios puedo hacer en mis experiencias y cuándo?</div>
+            <div class="collapsible-body"><span>Puedes hacer cuantos cambios quieras y cuando quieras. Puedes hacer modificaciones
+            directamente en la seccion "mis experiencias" y nuestro equipo esta siempre a tu disposicion para ayudarte con lo que se te ofrece.</span>
+
+              <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s3 col s6">
+                      <button type="button" name="button" class="button buttom__blanco-negro">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header text-white color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Cuánto tiempo tengo para cobrar una reservación?</div>
+            <div class="collapsible-body"><span>A partir de que la experiencia este vivida, tienes hasta 6 meses para mandarnos tu factura.
+            Despues de estos 6 meses, la experiencia será incobrable por politicas de nuestra empresa.</span>
+
+              <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s3 col s6">
+                      <button type="button" name="button" class="button buttom__blanco-negro">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- area del chip para resolver dudas-->
+  <div class="container">
+    <div class="row">
+      <div class="offset-s3 col s7">
+        <div class="chip high__chip color__dark-gray">
+          <img src="../assets/img/atencion.jpg" alt="Contact Person">
+          <strong class="text-white">No pudimos resolver tus dudas, contáctanos a </strong>
+          <a href="#">socios@experimenta.com.mx</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="logo-footer">
+          <img src="../assets/img/logoNaranja-menu.png" alt="logo">
+        </div>
+        <hr>
+        <div class="col l3 s12">
+          <h6 class="white-text">EXPERIMENTA</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Home</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>¿Quiénes somos?</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>¿Cómo funciona?</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Recibí un kit</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Blog</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h6 class="white-text">SERVIVIO AL CLIENTE</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Preguntas frecuentes</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Garantía de servicio</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h6 class="white-text">PÓLITICAS</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Términos y condiciones</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Privacidad</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h6 class="white-text">SOLUCIONES CORPORATIVAS</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Regalos corporativos</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Cotiza tu iniciativa</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <!-- area de footer-->
+    <div class="footer-contact">
+      <div class="container">
+        <!-- <h3>Contacto</h3> -->
+        <div class="row">
+          <div class="col l6 s12">
+            <div class="social-media">
+              <a href="https://www.facebook.com/experimenta.mexico" class="grey-text text-lighten-4 fa-3x" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/experimenta_mex" class="grey-text text-lighten-4 fa-3x" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/company-beta/1069214/" class="grey-text text-lighten-4 fa-3x" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/experimenta.mexico/" class="grey-text text-lighten-4 fa-3x" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.youtube.com/user/experiologo" class="grey-text text-lighten-4 fa-3x" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a href="https://www.experimenta.com.mx/blog/" class="grey-text text-lighten-4 fa-3x" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col l6 s12">
+            <div class="row">
+              <h6 class="right">Inscríbete a nuestro Newsletter para recibir grandes ideas...</h6>
+              <div class="col l8 subscribe right">
+                <input type="email" name="suscribirse" value="" placeholder="Escribe tu e-mail">
+              </div>
+              <button type="button" name="button" class="col l3 buton-suscribe right">Suscribete</button>
+            </div>
+            <div class="row">
+              <div class="l12">
+                <p class="contact"><i class="fa fa-phone" aria-hidden="true"></i> 5292 5707 / 01 55 5292-5707 | <br>
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i> atencion@experimenta.com.mx
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <section id="copyright">
+    Copyright © 2017-, Experimenta de México, S.A. de C.V. Todos los derechos reservados.
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
+</body>
+
+</html>
