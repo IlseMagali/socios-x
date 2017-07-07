@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Experimenta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/experimenta.css">
+  <link rel="stylesheet" href="css/convenio.css">
+</head>
+
+<body>
+
+  <!-- comienza header -->
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div id="sign-out">
+          <span><i class="fa fa-user-circle" aria-hidden="true"></i><a href="#">Cerrar sesión</a></span>
+        </div>
+        <div class="nav-wrapper">
+          <a href="#!" class="logo"><img src="assets/img/logoNaranja-menu.png" alt=""></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Mis reservaciones</a></li>
+            <li><a href="#">Mis facturas</a></li>
+            <!-- Dropdown Structure Trigger -->
+            <li><a class='dropdown-button' href='#' data-activates='about-me'>Acerca de mí</a></li>
+            <!-- Dropdown Structure Start -->
+            <ul id='about-me' class='dropdown-content'>
+              <li><a href="#!">Mis datos</a></li>
+              <li><a href="#!">Mis experiencias</a></li>
+              <li><a href="#!">Mi convenio</a></li>
+            </ul>
+            <!-- Dropdown Structure End -->
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a class="btn" href="#modal1">Contacto</a></li>
+          </ul>
+        </div>
+        <!-- Modal Structure -->
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <section class="row">
+              <section class="col s4">
+                <p>Negociaciones y convenios:</p>
+              </section>
+              <section class="col s4">
+                <p>5292-5707 Ext. 104 y 105</p>
+              </section>
+              <section class="col s4">
+                <p>socios@experimenta.com.mx</p>
+              </section>
+            </section>
+            <section class="row">
+              <section class="col s4">
+                <p>Administración:</p>
+              </section>
+              <section class="col s4">
+                <p>5292-5707 Ext. 1145</p>
+              </section>
+              <section class="col s4">
+                <p>egresos@experimenta.com.mx</p>
+              </section>
+            </section>
+            <section class="row">
+              <section class="col s4">
+                <p>Reservaciones:</p>
+              </section>
+              <section class="col s4">
+                <p>5292-5707 Ext. 109 y 110</p>
+              </section>
+              <section class="col s4">
+                <p>cte@experimena.com.mx</p>
+              </section>
+            </section>
+          </div>
+        </div>
+    </div>
+    </nav>
+  </header>
+
+  <!-- termina header -->
+
+  <!-- seccion de mis reservaciones -->
+  <section class="container">
+    <h2>Mis Reservaciones</h2>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col 6">
+        <select class="input-field">
+          <option value="Estatus">Estatus</option>
+          <option value="Pagadas">Pagadas</option>
+          <option value="Pendientes de Pago">Pendientes de Pago</option>
+          <option value="Reservadas">Reservadas</option>
+          <option value="Por Vivir">Por Vivir</option>
+        </select>
+      </div>
+      <div class="input-field col s4">
+        <i class="material-icons prefix">search</i>
+        <input id="icon_telephone" type="number" placeholder="Folio">
+        <label for="icon_telephone"></label>
+      </div>
+
+      <div class="col s5 input-field">
+        <input type="date">
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <table class="centered responsive-table">
+      <thead>
+        <tr>
+          <th>Folio</th>
+          <th>Estatus</th>
+          <th>Cliente</th>
+          <th>Experiencia</th>
+          <th>N. de Personas</th>
+          <th>Fecha</th>
+          <th>Horario</th>
+          <th>Monto a Facturar</th>
+          <th>Notas/Observaciones</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <!-- Modal Trigger -->
+          <td><a href="#modal5">1478523</a></td>
+          <td>Pendiente</td>
+          <td>Licenciada Rosario Ferreira García</td>
+          <td>x</td>
+          <td>3</td>
+          <td>15/jul</td>
+          <td>x</td>
+          <td>$1500.00</td>
+        </tr>
+        <tr>
+          <td><a href="#modal5">1478523</a></td>
+          <td>Pendiente</td>
+          <td>Licenciada Rosario Ferreira García</td>
+          <td>x</td>
+          <td>3</td>
+          <td>15/jul</td>
+          <td>x</td>
+          <td>$1500.00</td>
+        </tr>
+        <tr>
+          <td><a href="#modal5">1478523</a></td>
+          <td>Pendiente</td>
+          <td>Licenciada Rosario Ferreira García</td>
+          <td>x</td>
+          <td>3</td>
+          <td>15/jul</td>
+          <td>x</td>
+          <td>$1500.00</td>
+        </tr>
+        <tr>
+          <td><a href="#modal5">1478523</a></td>
+          <td>Pendiente</td>
+          <td>Licenciada Rosario Ferreira García</td>
+          <td>x</td>
+          <td>3</td>
+          <td>15/jul</td>
+          <td>x</td>
+          <td>$1500.00</td>
+        </tr>
+        <tr>
+          <td><a href="#modal5">1478523</a></td>
+          <td>Pendiente</td>
+          <td>Licenciada Rosario Ferreira García</td>
+          <td>x</td>
+          <td>3</td>
+          <td>15/jul</td>
+          <td>x</td>
+          <td>$1500.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Modal Structure -->
+  <div id="modal5" class="modal datos-cliente">
+    <div class="modal-content">
+      <ul class="datos-cliente">
+        <li>Folio: 1478523</li>
+        <li>Cliente: Rosario Ferreira García</li>
+        <li>Email: rosario.ferreira@logitech.com.mx</li>
+        <li>Teléfono: 55 93 48 54</li>
+        <li>Fecha: 12-sep</li>
+        <li>Confirmado por: x</li>
+        <li>Experiencia: x</li>
+        <li>Ubicacion: x</li>
+        <textarea name="" rows="8" cols="15" placeholder="Notas/Observaciones"></textarea>
+      </ul>
+    </div>
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Guardar</a>
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+  </div>
+
+  <!-- termina seccion de mis reservaciones -->
+
+  <!-- comienza footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="logo">
+          <img src="assets/img/logoNaranja-menu.png" alt="logo">
+        </div>
+        <hr>
+        <div class="col l3 s12">
+          <h6 class="white-text">EXPERIMENTA</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Home</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>¿Quiénes somos?</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>¿Cómo funciona?</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Recibí un kit</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Blog</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h6 class="white-text">SERVIVIO AL CLIENTE</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Preguntas frecuentes</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Garantía de servicio</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h6 class="white-text">PÓLITICAS</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Términos y condiciones</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Privacidad</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h6 class="white-text">SOLUCIONES CORPORATIVAS</h6>
+          <ul class="grey-text text-lighten-4">
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Regalos corporativos</li>
+            </a>
+            <a href="#" class="grey-text text-lighten-4">
+              <li>Cotiza tu iniciativa</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <!-- area de footer-->
+    <div class="footer-contact">
+      <div class="container">
+        <!-- <h3>Contacto</h3> -->
+        <div class="row">
+          <div class="col l6 s12">
+            <div class="social-media">
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a href="#" class="grey-text text-lighten-4 fa-3x"><i class="fa fa-rss" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col l6 s12">
+            <div class="row">
+              <h6 class="right">Inscríbete a nuestro Newsletter para recibir grandes ideas...</h6>
+              <div class="col l8 subscribe right">
+                <input type="email" name="suscribirse" value="" placeholder="Escribe tu e-mail">
+              </div>
+              <button type="button" name="button" class="col l3 buton-suscribe right">Suscribete</button>
+            </div>
+            <div class="row">
+              <div class="l12">
+                <p class="contact"><i class="fa fa-phone" aria-hidden="true"></i> 5292 5707 / 01 55 5292-5707 | <br>
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i> atencion@experimenta.com.mx
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/experimenta.js">
+  </script>
+</body>
+
+</html>
