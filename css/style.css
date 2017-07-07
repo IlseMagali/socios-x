@@ -49,6 +49,9 @@ nav .dropdown-content {
 	color: #ff5900;
 }
 
+h5 .fa{
+	margin-top: -1%;
+}
 /*sign-out styles end*/
 .page-footer {
   background-color: #333333;
