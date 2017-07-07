@@ -1,0 +1,8 @@
+@media (min-width: 300px) and (max-width: 768px) {
+ h2{
+      font-size: 25px ;
+    }
+    .grey-text.text-lighten-4{
+      font-size: 20px;
+    }
+}
